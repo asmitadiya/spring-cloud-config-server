@@ -8,6 +8,6 @@ public class HelloController {
 
     @RequestMapping("/")
     public String hello() {
-        return String.format("Hello Asmita to Spring Cloud");
+        return "Hello Asmita to Spring Cloud";
     }
 }
