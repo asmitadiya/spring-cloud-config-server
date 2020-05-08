@@ -1,14 +1,13 @@
 package com.demo.springboot.application;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
 
-    @GetMapping("/hello")
-    public String hello(@RequestParam() String name) {
-        return String.format("Hello %s to Spring Cloud",name);
+    @RequestMapping("/")
+    public String hello() {
+        return String.format("Hello Asmita to Spring Cloud");
     }
 }
