@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "application\\target\\application-0.0.1-SNAPSHOT.jar",
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
